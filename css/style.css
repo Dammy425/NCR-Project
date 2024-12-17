@@ -8,7 +8,16 @@ body{
     box-sizing: border-box;
 }
 
+nav{
+    background-color: #173451;
+    width: 100vw;
+}
+
 .nav-div{
     display: flex;
     align-items: flex-end;
+}
+
+.nav-div img{
+    width: 50px;
 }
