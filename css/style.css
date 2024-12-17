@@ -1,3 +1,14 @@
 /* sec-color #5897c9 */
 
 /* pri-color #173451 */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-div{
+    display: flex;
+    align-items: flex-end;
+}
