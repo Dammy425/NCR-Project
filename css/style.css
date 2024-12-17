@@ -9,15 +9,15 @@ body{
 }
 
 nav{
-    background-color: #173451;
+    background-color: #5897c9;
     width: 100vw;
-}
-
-.nav-div{
+    height: 50px;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-div img{
-    width: 50px;
+    width: 300px;
+    border: 2px solid black;
 }
