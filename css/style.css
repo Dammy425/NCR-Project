@@ -88,10 +88,14 @@ nav a:hover{
 }
 
 footer{
-    background-color: rgb(23, 52, 81);
+    background-color: rgb(9, 88, 167);
     color: #fff;
     padding: 60px 0;
     margin-top: 20px;
+}
+
+footer img{
+    width: 500px;
 }
 
 .footer-container{
@@ -101,9 +105,9 @@ footer{
 
 .footer-container > div{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 230px;
     align-items: center;
+    justify-content: center;
 }
 
 footer h4{
