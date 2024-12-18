@@ -86,3 +86,28 @@ nav a:hover{
 .recent-NCR thead{
     background-color: rgb(88, 151, 201);
 }
+
+footer{
+    background-color: rgb(23, 52, 81);
+    color: #fff;
+    padding: 60px 0;
+    margin-top: 20px;
+}
+
+.footer-container{
+    width: 1230px;
+    margin: 0 auto;
+}
+
+.footer-container > div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer h4{
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #fff;
+}
