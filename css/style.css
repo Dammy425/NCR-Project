@@ -13,7 +13,7 @@ nav{
 }
 
 nav img{
-    width: 350px;
+    width: 200px;
 }
 
 nav ul{
@@ -51,9 +51,10 @@ nav a:hover{
 .dashboard-child{
     width: 400px;
     height: 240px;
-    background-color: yellow;
+    /* background-color: yellow; */
     margin-bottom: 40px;
-    background-image: linear-gradient(326deg, rgb(23, 52, 81) 50%, rgb(88, 151, 201) 50%);
+    background-color: rgb(88, 151, 201);
+    /* background-image: linear-gradient(326deg, rgb(23, 52, 81) 50%, rgb(88, 151, 201) 50%); */
 }
 
 .dashboard-child svg{
