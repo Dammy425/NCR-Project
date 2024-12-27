@@ -51,14 +51,16 @@ nav a:hover{
 .dashboard-child{
     width: 400px;
     height: 240px;
-    /* background-color: yellow; */
     margin-bottom: 40px;
     background-color: rgb(88, 151, 201);
-    /* background-image: linear-gradient(326deg, rgb(23, 52, 81) 50%, rgb(88, 151, 201) 50%); */
+}
+
+.dashboard-child > div{
+    display: flex;
 }
 
 .dashboard-child svg{
-    fill: white;
+    fill: rgb(23, 52, 81);
     width: 40px;
 }
 
