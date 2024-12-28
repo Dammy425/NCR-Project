@@ -1,3 +1,5 @@
+/* General */
+
 body{
     margin: 0;
     padding: 0;
@@ -38,6 +40,39 @@ nav a{
 nav a:hover{
     background-color: rgba(23, 52, 81, 0.308);
 }
+
+footer{
+    background-color: rgb(9, 88, 167);
+    color: #fff;
+    padding: 60px 0;
+    margin-top: 20px;
+}
+
+footer img{
+    width: 500px;
+}
+
+.footer-container{
+    width: 1230px;
+    margin: 0 auto;
+}
+
+.footer-container > div{
+    display: flex;
+    gap: 230px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h4{
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #fff;
+}
+
+/* General ends */
+
+/* Index */
 
 .dashboard{
     margin-top: 40px;
@@ -94,31 +129,13 @@ nav a:hover{
     background-color: rgb(88, 151, 201);
 }
 
-footer{
-    background-color: rgb(9, 88, 167);
-    color: #fff;
-    padding: 60px 0;
-    margin-top: 20px;
+/* Index Ends */
+
+
+/* Ncrlog */
+
+.login-div svg{
+    width: 40px;
 }
 
-footer img{
-    width: 500px;
-}
-
-.footer-container{
-    width: 1230px;
-    margin: 0 auto;
-}
-
-.footer-container > div{
-    display: flex;
-    gap: 230px;
-    align-items: center;
-    justify-content: center;
-}
-
-footer h4{
-    margin-bottom: 10px;
-    font-size: 18px;
-    color: #fff;
-}
+/* Ncrlog ends */
