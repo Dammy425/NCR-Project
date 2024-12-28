@@ -134,8 +134,15 @@ footer h4{
 
 /* Ncrlog */
 
+.login-div{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
 .login-div svg{
     width: 40px;
+
 }
 
 /* Ncrlog ends */
