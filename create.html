@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>NCR Project</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        
+        <div class="login-div">
+            <form action="sign.html">
+
+                <label for="name">NCR Name</label>
+                <input type="text" id="name" required>
+
+                <label for="description">Despription</label>
+                <textarea name="description" id="description" style="margin-top: -20px; height: 50px; resize: none; border: 2px solid black; border-radius: 5px;" required></textarea>
+
+                <h3 style="margin-top: -1px;">Type Of NCR</h3>
+
+                <select name="type" id="type" style="margin-top: -35px; width: 70px; padding: 2px 3px;" required>
+                    <option value="type"></option>
+                    <hr>
+                    <option value="type">Word</option>
+                    <hr>
+                    <option value="type">Excel</option>
+                    <hr>
+                    <option value="type">Others</option>
+                </select>
+
+                <button type="submit">Create</button>
+
+            </form>
+        </div>
+
+    </body>
+</html>
